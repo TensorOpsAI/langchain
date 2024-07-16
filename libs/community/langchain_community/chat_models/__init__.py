@@ -170,6 +170,9 @@ if TYPE_CHECKING:
     from langchain_community.chat_models.zhipuai import (
         ChatZhipuAI,
     )
+    from langchain_community.chat_models.llmstudio import (
+        ChatLLMStudio,
+    )
 
 __all__ = [
     "AzureChatOpenAI",
@@ -223,6 +226,7 @@ __all__ = [
     "QianfanChatEndpoint",
     "SolarChat",
     "VolcEngineMaasChat",
+    "ChatLLMStudio",
 ]
 
 
@@ -278,6 +282,7 @@ _module_lookup = {
     "VolcEngineMaasChat": "langchain_community.chat_models.volcengine_maas",
     "ChatPremAI": "langchain_community.chat_models.premai",
     "ChatLlamaCpp": "langchain_community.chat_models.llamacpp",
+    "ChatLLMStudio": "langchain_community.chat_models.llmstudio",
 }
 
 
